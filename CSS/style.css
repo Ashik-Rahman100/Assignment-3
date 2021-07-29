@@ -1,3 +1,56 @@
-h1{
-    color: red;
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.honda-banner{
+    background-color: #264653;
+    color: white;
+}
+
+/* header */
+nav ul li{
+    margin-right: 2.5rem;
+}
+.submit-btn{
+    border: none;
+    padding: 5px 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: #E76F51;
+}
+
+/* features bike*/
+.img-gray-scale {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+.line-highlight{
+    color:  #E76F51;
+}
+.diff-submit-btn{
+    
+    border: 1px solid #E76F51;
+    padding: 5px 0px;
+    border-radius: 5px;
+    color:#E76F51 ;
+    background-color: white;
+
+}
+/* happy clients */
+.star i{
+    margin: 4px;
+}
+.filled{
+    color: #E77C40;
+}
+.empty{
+    color:#E77C40 ;
+}
+.client-name{
+    color: #23A6F0;
+}
+
+/* FAQ section */
+.faq-image img {
+    width: 90%;
 }
